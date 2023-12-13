@@ -2,4 +2,4 @@
 
 ## Feito com HTML, CSS e JavaScript
 
-<link>Link do vídeo no YouTube
+<a href="">Link do vídeo no YouTube</a>
