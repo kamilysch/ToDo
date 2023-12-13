@@ -1,0 +1,110 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #1d3bcf 0%, #b105a6 49%, #f8e044 96%);
+    padding: 10px;
+}
+
+.to-do{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 5px;
+}
+
+.to-do h2{
+    color: #4e085f;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f7e4ff;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 15px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 5px 27px;
+    background: linear-gradient(140deg, #7a37a7, #43055f);
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ul li{
+    list-style: none;
+    font-size: 18px;
+    padding: 12px 10px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-image: url(/img/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 15px;
+    left: 12px;
+}
+
+ul li.check{
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.check::before{
+    background-image: url(/img/checked.png);
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+ul li span:hover{
+    background: #edeef0;
+}
