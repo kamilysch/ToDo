@@ -1,5 +1,6 @@
 <h1>To-Do List</h1>
 
-## Feito com HTML, CSS e JavaScript
+<h2>Feito com HTML, CSS e JavaScript</h2>
 
-<a href="">Link do vídeo no YouTube</a>
+Acesse o projeto pronto: 
+Veja a produção do projeto no YouTube:
