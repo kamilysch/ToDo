@@ -1,6 +1,6 @@
 <h1>To-Do List</h1>
 
-<h2>Feito com HTML, CSS e JavaScript</h2>
+Feito com HTML, CSS e JavaScript
 <br><br>
 
 Acesse o projeto pronto: https://to-do-topaz-six.vercel.app/
